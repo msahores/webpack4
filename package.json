@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "webpack4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/msahores/webpack4/issues"
   },
-  "homepage": "https://github.com/msahores/webpack4#readme"
+  "homepage": "https://github.com/msahores/webpack4#readme",
+  "devDependencies": {
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
+  }
 }
