@@ -1,5 +1,6 @@
 @import 'global/vars';
 
 body {
-  background-color: $main_color;
+  background: url('../images/cat.jpg') no-repeat;
+  background-size: cover;
 }
