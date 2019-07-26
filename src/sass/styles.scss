@@ -1,6 +1,12 @@
 @import 'global/vars';
+@import 'global/fonts';
 
 body {
   background: url('../images/cat.jpg') no-repeat;
   background-size: cover;
+}
+
+h1 {
+  font-family: "IntroRustG";
+  color: whitesmoke;
 }
