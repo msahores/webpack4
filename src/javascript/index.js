@@ -1,4 +1,4 @@
-import '../sass/styles.scss';
+import "../sass/styles.scss";
 
-const constant = "constant in es6";
+const constant = "es6 constant";
 console.log(constant);
