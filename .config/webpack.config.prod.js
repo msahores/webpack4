@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/javascript/index.js",
 
   output: {
-    path: path.resolve(__dirname, "../dist"),
+    path: path.resolve(__dirname, "../build"),
     filename: "js/bundle.js",
     publicPath: "/"
   },
@@ -37,7 +37,7 @@ module.exports = {
             loader: "postcss-loader",
             options: {
               config: {
-                path: ".config/dev/postcss.config.js"
+                path: ".config/prod/postcss.config.js"
               }
             }
           },
