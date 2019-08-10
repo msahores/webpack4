@@ -1,5 +1,5 @@
-*For Development RUN:*
+# For Development RUN:
 ```npm start```
 
-*For Production RUN*
+# For Production RUN
 ```npm run build```
