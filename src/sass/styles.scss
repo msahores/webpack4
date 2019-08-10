@@ -3,10 +3,16 @@
 
 body {
   background: url("../images/cat.png") no-repeat;
-  background-size: cover;
 }
 
 h1 {
   font-family: "IntroRustG";
   color: black;
+}
+
+.example {
+  display: grid;
+  transition: all 0.5s;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
 }
