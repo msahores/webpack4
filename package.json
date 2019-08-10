@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js --watch"
+    "start": "npm run dev",
+    "dev": "webpack --config .config/webpack.config.dev.js --watch"
   },
   "repository": {
     "type": "git",

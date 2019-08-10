@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/javascript/index.js",
 
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "../dist"),
     filename: "js/bundle.js",
     publicPath: "/"
   },
@@ -33,7 +33,12 @@ module.exports = {
             loader: "css-loader"
           },
           {
-            loader: "postcss-loader"
+            loader: "postcss-loader",
+            options: {
+              config: {
+                path: ".config"
+              }
+            }
           },
           {
             loader: "sass-loader",
