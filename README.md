@@ -1,2 +1,5 @@
-Run on Local Server :
-python -m SimpleHTTPServer 5000
+*For Development RUN:*
+```npm start```
+
+*For Production RUN*
+```npm run build```
