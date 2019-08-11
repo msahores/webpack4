@@ -1,5 +1,5 @@
-# For Development RUN:
+### For Development:
 ```npm start```
 
-# For Production RUN
+### For Production
 ```npm run build```
